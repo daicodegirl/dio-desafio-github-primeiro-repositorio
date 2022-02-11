@@ -1,0 +1,34 @@
+Tema: Comandos Git
+
+Readme.md:
+  - Serve para documentar seu software
+  - Tudo que é necessário pro seu projeto funcionar deve ser documentado aqui
+
+git status:
+  - Qual o estado dos arquivos dos arquivos do seu projeto
+
+git add:
+  - Marca os arquivos para que sejam commitados
+  - É possível usar variações pra usar esse comando:
+
+  . - significa que vai adicionar todo o projeto
+  --all - significa que vai adicionar todo o projeto
+
+git commit:
+  - Pega todos os arquivos marcados no git add e "confirma" que será entregue
+
+  -m - esse parâmetro é obrigatório e pede que uma mensagem seja adicionada ao commit
+
+git remote:
+  - Informa o endereço remoto do repositório, a origem na nuvem (normalmente um github
+
+git push
+  - Coloca suas alterações no repositório remoto.
+
+git checkout:
+  - Navega entre branches, normalmente o comando é composto pelo nome da branch
+
+  - Utiliza o parâmetro -b pra criar e migrar alterações para outra branch
+
+git clone:
+  - Clona de uma origem remota o repositório pra sua máquina
